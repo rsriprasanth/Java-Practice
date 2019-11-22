@@ -51,5 +51,6 @@ public class PrimitivePractice {
 		pounds = scanner.nextDouble(); 
 		kg=convertPoundsToKilos(pounds);
 		System.out.println("Kilograms: " + kg + "kgs");
+		scanner.close();
 	}
 }
