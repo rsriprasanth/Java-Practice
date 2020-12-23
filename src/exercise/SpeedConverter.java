@@ -6,6 +6,7 @@ public class SpeedConverter {
 	        if(kilometersPerHour<0) {
 	            return -1;
 	        }
+	        //Conversion kmps to mps - Divide by 1.609
 	        double milesPerhour = kilometersPerHour/(1.609);
 	        return(Math.round(milesPerhour));
 	    }
